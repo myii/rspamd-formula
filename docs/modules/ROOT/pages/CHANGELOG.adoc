@@ -1,0 +1,78 @@
+= Changelog
+
+:sectnums!:
+
+== link:++https://github.com/saltstack-formulas/rspamd-formula/compare/v0.1.2...v0.1.3++[0.1.3^] (2021-05-03)
+
+=== Continuous Integration
+
+* *commitlint:* ensure `upstream/master` uses main repo URL [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/5034c7a0702acc4e1865b9c01789701a68746af1[5034c7a^])
+* *gemfile+lock:* use `ssf` customised `kitchen-docker` repo [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/470706c8b0ac8cd08cf811e48cf4486840cb7eef[470706c^])
+* *gitlab-ci:* add `rubocop` linter (with `allow_failure`) [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/bb3f7f902adbe4acc6f5681ec39aca6fad9ac9de[bb3f7f9^])
+* *gitlab-ci:* use GitLab CI as Travis CI replacement
+(https://github.com/saltstack-formulas/rspamd-formula/commit/d38bd0a6244685d1743b76276db1bec34b650529[d38bd0a^])
+* *kitchen+ci:* use latest pre-salted images (after CVE) [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/44ef6491cccde03cfdaf758671b9460992a9c185[44ef649^])
+* *kitchen+gitlab:* adjust matrix to add `3003` [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/17723bc3c18c159a8732718d9d0729f9f37f733a[17723bc^])
+* *kitchen+gitlab-ci:* use latest pre-salted images [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/c5e085c4a965700f332f7919c7d20899c121d9b5[c5e085c^])
+* *pre-commit:* update hook for `rubocop` [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/0351ab9b7c7c304972abdbede6ac224c310435fd[0351ab9^])
+
+=== Documentation
+
+* *pillar:* fix `manage_redis` documentation
+(https://github.com/saltstack-formulas/rspamd-formula/commit/382db226b0599346d3d08ffcc3eced65df6e0f08[382db22^])
+
+=== Tests
+
+* standardise use of `share` suite & `_mapdata` state [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/9156f444928d1c4726cfd48443104632625a7423[9156f44^])
+
+== link:++https://github.com/saltstack-formulas/rspamd-formula/compare/v0.1.1...v0.1.2++[0.1.2^] (2020-10-14)
+
+=== Continuous Integration
+
+* *pre-commit:* add to formula [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/22b0741c8d30c3d9b471b87357c8b28761dd0448[22b0741^])
+* *pre-commit:* enable/disable `rstcheck` as relevant [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/33d6050ab66a80631dc0eb82b927d01723b2f6ae[33d6050^])
+* *pre-commit:* finalise `rstcheck` configuration [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/b7bc9ee560f58c6166af7fd54f363ced1249d128[b7bc9ee^])
+
+=== Documentation
+
+* *pillar.exemple:* use_upstream_repo
+(https://github.com/saltstack-formulas/rspamd-formula/commit/624c2875f54958c4dfe22c3ce3cb196c5300ebde[624c287^])
+* *readme:* fix `rstcheck` violation [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/cd124511084f0059c176826cae29bbc6b04ccfe4[cd12451^]),
+closes
+https://github.com//travis-ci.org/github/myii/rspamd-formula/builds/731608390/issues/L259[/travis-ci.org/github/myii/rspamd-formula/builds/731608390#L259^]
+
+== link:++https://github.com/saltstack-formulas/rspamd-formula/compare/v0.1.0...v0.1.1++[0.1.1^] (2020-08-25)
+
+=== Bug Fixes
+
+* *config:* create missing dirs
+(https://github.com/saltstack-formulas/rspamd-formula/commit/51ae696675204b9075c495294908822a24da4a2c[51ae696^])
+
+=== Code Refactoring
+
+* *defaults:* reorganize redis params
+(https://github.com/saltstack-formulas/rspamd-formula/commit/a0060ff4f4daed88c796c2c5a14c798393610a62[a0060ff^])
+* *semantic-release:* align to template-formula
+(https://github.com/saltstack-formulas/rspamd-formula/commit/46bfe11337c1239d16e20d8fcf1ce1517bd5b235[46bfe11^])
+
+=== Continuous Integration
+
+* *travis:* change platforms [skip ci]
+(https://github.com/saltstack-formulas/rspamd-formula/commit/c7ed4aa683d6430fd6cc6cdb810bae1e56ee7fc3[c7ed4aa^])
+
+=== Styles
+
+* *config:* remove empty lines
+(https://github.com/saltstack-formulas/rspamd-formula/commit/04401a1fdd6b89f086bb07939c320a6c0b9d0166[04401a1^])
